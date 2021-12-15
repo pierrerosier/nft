@@ -1,4 +1,14 @@
 @font-face {
-    font-family: 'Outfit';
-    src: url('/src/fonts/Outfit-VariableFont_wght.ttf') format('ttf');
+    font-family: 'Outfit-Medium';
+    src: url('/src/fonts/Outfit-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Outfit-SemiBold';
+    src: url('/src/fonts/Outfit-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Outfit-Regular';
+    src: url('/src/fonts/Outfit-Regular.ttf') format('truetype');
 }

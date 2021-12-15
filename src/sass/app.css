@@ -12,9 +12,6 @@
     */
 /**Neutral
 */
-/*
-*Font-weight
-*/
 * {
   margin: 0;
   box-sizing: border-box;
@@ -33,28 +30,36 @@ hr {
 }
 
 h1 {
+  font-family: Outfit-SemiBold;
   margin-top: 30px;
-  font-weight: 600;
-  font-size: 14px;
+  font-size: 18px;
   color: #FFFFFF;
 }
 
 h2 {
+  font-family: "Outfit-Medium";
   font-size: 12px;
-  font-weight: 300;
   color: #00FFF7;
 }
 
 p {
+  font-family: Outfit-Regular;
   margin: 18px 0 25px;
   font-size: 12px;
-  font-weight: 400;
   color: #8BACDA;
 }
 
 @font-face {
-  font-family: "Outfit";
-  src: url("/src/fonts/Outfit-VariableFont_wght.ttf") format("ttf");
+  font-family: "Outfit-Medium";
+  src: url("/src/fonts/Outfit-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Outfit-SemiBold";
+  src: url("/src/fonts/Outfit-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Outfit-Regular";
+  src: url("/src/fonts/Outfit-Regular.ttf") format("truetype");
 }
 .wrapper {
   margin: auto;
