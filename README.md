@@ -48,7 +48,7 @@ Your users should be able to:
 ### Links
 
 - Solution URL: [Solution](https://github.com/pierrerosier/nft)
-- Live Site URL: [live site](https://pierrerosier.github.io/crowfunding/)
+- Live Site URL: [live site](https://nft-peach.vercel.app/)
 
 ## My process
 
