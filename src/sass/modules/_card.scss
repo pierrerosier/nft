@@ -1,0 +1,59 @@
+.wrapper {
+    margin: auto;
+    padding: 23px 23px 31px;
+    width: 329px;
+    border-radius: 5px;
+    background-color: $Pickled-Bluewood;
+
+    &__picture {
+        max-width: 100%;
+        border-radius: 5px;
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        h2, p {
+            margin: 0;
+        }
+
+        h2::before {
+            content: url(/src/images/icon-ethereum.svg);
+            display: inline-block;
+            height: 18px;
+            width: 11px;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+            margin-right: 6px;
+        }
+
+        p::before {
+            content: url(/src/images/icon-clock.svg);
+            display: inline-block;
+            height: 18px;
+            width: 18px;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+            margin-right: 6px;
+        }
+    }
+
+    &__testimony {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        img {
+            width: 32px;
+            height: 32px;
+        }
+
+        p {
+            margin: auto auto auto 15px;
+        }
+    }
+}

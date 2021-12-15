@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $Outfit;
+    font-size: 18px;
+    background-color: $Firefly;
+}
+
+hr {
+    margin: 30px 0;
+    color: $Polo-Blue;
+}
+
+h1 {
+    margin-top: 30px;
+    font-weight: $Outfit-bold;
+    font-size: 14px;
+    color: $White;
+}
+
+h2 {
+    font-size: 12px;
+    font-weight: $Outfit-medium;
+    color: $Cyan;
+}
+
+p {
+    margin: 18px 0 25px;
+    font-size: 12px;
+    font-weight: $Outfit-medium;
+    color: $Polo-Blue;
+}

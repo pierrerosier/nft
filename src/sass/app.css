@@ -1,7 +1,127 @@
 @charset "UTF-8";
-/* Theme Name: Crowfunding
+/* Theme Name: NFT
  * Author: Pierre Rosier
  * Description: Thème créé pour un exercice Frontend Mentor
  * Version: 1.0.0
  */
-@import '/node_modules/bootstrap/dist/css/bootstrap.css';/*# sourceMappingURL=app.css.map */
+@import '/node_modules/bootstrap/dist/css/bootstrap.css';
+/*
+*Colors
+*
+    **Primary
+    */
+/**Neutral
+*/
+/*
+*Font
+*/
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  background-color: #0D192B;
+}
+
+hr {
+  margin: 30px 0;
+  color: #8BACDA;
+}
+
+h1 {
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+h2 {
+  font-size: 12px;
+  font-weight: 300;
+  color: #00FFF7;
+}
+
+p {
+  margin: 18px 0 25px;
+  font-size: 12px;
+  font-weight: 300;
+  color: #8BACDA;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("../../fonts/Outfit-Medium.ttf") format("ttf");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("../../fonts/Outfit-Regular.ttf") format("ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("../../fonts/Outfit-SemiBold.ttf") format("ttf");
+  font-weight: 600;
+}
+.wrapper {
+  margin: auto;
+  padding: 23px 23px 31px;
+  width: 329px;
+  border-radius: 5px;
+  background-color: #2F415B;
+}
+.wrapper__picture {
+  max-width: 100%;
+  border-radius: 5px;
+}
+.wrapper__text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.wrapper__text h2, .wrapper__text p {
+  margin: 0;
+}
+.wrapper__text h2::before {
+  content: url(/src/images/icon-ethereum.svg);
+  display: inline-block;
+  height: 18px;
+  width: 11px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-right: 6px;
+}
+.wrapper__text p::before {
+  content: url(/src/images/icon-clock.svg);
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-right: 6px;
+}
+.wrapper__testimony {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.wrapper__testimony img {
+  width: 32px;
+  height: 32px;
+}
+.wrapper__testimony p {
+  margin: auto auto auto 15px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: #3e52a3;
+}/*# sourceMappingURL=app.css.map */
