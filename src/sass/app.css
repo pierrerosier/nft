@@ -136,6 +136,13 @@ p {
 .wrapper__testimony p {
   margin: auto auto auto 15px;
 }
+.wrapper__testimony__color {
+  color: #FFF;
+}
+.wrapper__testimony__color:hover {
+  cursor: pointer;
+  color: #00FFF7;
+}
 
 .attribution {
   font-size: 11px;

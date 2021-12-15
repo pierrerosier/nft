@@ -82,5 +82,14 @@
         p {
             margin: auto auto auto 15px;
         }
+
+        &__color {
+            color:#FFF;
+
+            &:hover {
+                cursor: pointer;
+                color: $Cyan;
+            }
+        }
     }
 }
